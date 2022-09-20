@@ -7,7 +7,7 @@ from sklearn.metrics import accuracy_score
 from sklearn.ensemble import RandomForestClassifier 
 from sklearn.model_selection import train_test_split
  
-st.title('Penguin Classifier') 
+st.title('Penguin Machine Learning Classifier')
 
 st.write("This app uses 6 inputs to predict the species of penguin using " 
 
