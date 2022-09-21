@@ -10,9 +10,9 @@ is for our survey design.
 '''
 np.random.seed(1)
 num_surveys = 100
-num_surveys = st.slider(label='Number of Surveys Sent',
+num_surveys = st.slider(label='Number of Surveys Sent', 
 	min_value=5, max_value=150, value=50)
-max_amount = st.number_input(label='What is the max you want to spend?',
+max_amount = st.number_input(label='What is the max you want to spend?', 
 	value=num_surveys*50, step=500)
 user_time_spent = np.random.normal(50.5, 10, 1000)
 my_sample = np.random.choice(user_time_spent, num_surveys)
